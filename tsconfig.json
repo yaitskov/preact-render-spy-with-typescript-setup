@@ -1,7 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+
+    "jsx": "react",
+    "jsxFactory": "h",
+    "lib": ["es6", "dom", "es2017.object", "esnext.array"],
+    "allowJs": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strict": true,
+  },
+  "include": [
+    "src"
+  ]
 }
